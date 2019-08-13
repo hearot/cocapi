@@ -1,19 +1,9 @@
-# ClashOfClansAPI </br>
-Python Wrapper for SuperCells Clash Of Clan API </br>
-Get Token from https://developer.clashofclans.com/</br>
+# clashapi
+A Python Wrapper for the Clash Of Clan API.
+Get your own from https://developer.clashofclans.com/.
 
-
-# Install using pip </br>
-
-> pip3 install cocapi
-
-
-# Usage </br>
+# Install using pip
 
 ```
-from cocapi import CocApi
-token = 'YOUR_API_TOKEN';
-timeout=1 #requests timeout 
-api=CocApi(token,timeout)
-api.clan_members("#PU8J2RQ")
+pip3 install clashapi
 ```
